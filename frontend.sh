@@ -4,7 +4,7 @@ echo "Configuration Management for frontend in progress"
 
 ID=$(id -u)
 
-if [ $id -ne 0 ]; then 
+if [ $ID -ne 0 ]; then 
     echo "Script has to be execeuted as a root user or with sudo"
     echo "Ex: sudo bash $0 or # bash $0"
     exit 1
