@@ -7,7 +7,7 @@ ID=$(id -u)
 if [ $ID -ne 0 ]; then 
     echo -e "\e[35m Script has to be execeuted as a root user or with sudo\e[0m"
     echo -e "Example usage: \n\t \e[32msudo bash $0 or # bash $0\e[0m"
-    exit 1
+    # exit 1
 fi    
 
 
